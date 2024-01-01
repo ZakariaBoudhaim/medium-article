@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sevillana&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Sevillana&family=Seymour+One&display=swap');
+
+h2 {
+  color: #494949;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+#container {
+  width: 700px;
+  margin: 50px auto;
+  text-align: left;
+  background-color: #DFCCFB;
+  font-family: 'Seymour One', sans-serif;
+  padding: 20px;
+}
+
+#banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+p{
+  font-family: 'Lora', serif;
+  color: #494949;
+  font-size: 18px;
+}
+
+.banner_titles{
+  padding:0px 150px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Sevillana', cursive;
+  font-size: 30px;
+  color: #4F709C;
+  background-color: #F6F1E9;
+  border-radius: 5px;
+  padding: 5px;
+}
+a:hover{
+  background-color: #494949;
+  border-radius: 5px;
+}
+
+#banner h1 {
+color:#FAF1E4;
+font-family: 'Abril Fatface', serif;
+font-size: 38px;
+}
+
+#banner p {
+font-family: 'Abril Fatface', serif;
+font-size: 25px;
+color: #E2C799;
+}
+
+html{
+  margin: 0px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
